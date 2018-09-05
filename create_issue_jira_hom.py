@@ -3,19 +3,13 @@ import requests
 import json
 import logging
 import http
+from constants_jira import PROJECT_POC_KEY, ISSUE_BUG_NAME, CT_TANGENTE_90, ISSUELINKTYPE_CREATE_BY
 
-JIRA_URL = 'http://basetestejira.inatel.br:8080/rest/api/latest/issue/'
-JIRA_AUTH = {'Authorization': 'Basic dXN1YXJpbzpzZW5oYQ=='}
+JIRA_ISSUE_URL = 'http://basetestejira.inatel.br:8080/rest/api/latest/issue/'
+JIRA_ISSUELINK_URL = 'http://basetestejira.inatel.br:8080/rest/api/latest/issueLink/'
+JIRA_AUTH = {'Authorization': 'Basic 000'}
 JIRA_CONTENT = {'Content-Type': 'application/json'}
 JIRA_ACCEPT = {'Accept': 'application/json'}
-PROJECT_ID = sys.argv[1]
-ISSUETYPE_ID = sys.argv[2]
-ASSIGNEE_NAME = 'paulosergio'
-COMPONENT_SOTWARE_ID = '13302'
-TASK_TITLE= sys.argv[3]
-CUSTOM_FIELD_10430 = 'High'
-CUSTOM_FIELD_10432 = 'Open'
-CUSTOM_FIELD_10431 = sys.argv[4]
 
 class Project:
     key = None
@@ -44,28 +38,53 @@ class CustomField:
 
 class Fields:
     project = None
-    summary = None
     issuetype = None
-    customfield_10430 = None
-    customfield_10431 = None
-    customfield_10432 = None
-    #assignee = None
-    #components = None
-    def __init__(self, project, summary, issuetype, customfield_10430, customfield_10432, customfield_10431):
+    summary = None
+    description = None
+    def __init__(self, project, issuetype, summary, description):
         self.project = project
-        self.summary = summary
         self.issuetype = issuetype
-        self.customfield_10430 = customfield_10430
-        self.customfield_10431 = customfield_10431
-        self.customfield_10432 = customfield_10432
-
+        self.summary = summary
+        self.description = description
+ 
 class IssueData:
     fields = None
     def __init__(self, fields):
         self.fields = fields
 
+class WardIssue:
+    key: None
+    def __init__(self, key):
+        self.key = key
+
+class IssueLinkType:
+    name: None
+    def __init__(self, name):
+        self.name = name
+
+class IssueLink:
+    type: None
+    inwardIssue: None
+    outwardIssue: None
+    def __init__(self, type, inwardIssue, outwardIssue):
+        self.type = type
+        self.inwardIssue = inwardIssue
+        self.outwardIssue = outwardIssue
+
+class Response:
+    STATUS_OK = "OK"
+    STATUS_ERROR = "ERROR"
+
+    status: None
+    key: None
+    description: None
+    def __init__(self, status, key, description=""):
+        self.status = status
+        self.key = key
+        self.description = description
+
 def obj_to_dict(obj):
-   return obj.__dict__
+       return obj.__dict__
 
 def enable_log(enable=False):
     if enable:
@@ -76,33 +95,60 @@ def enable_log(enable=False):
         requests_log.setLevel(logging.DEBUG)
         requests_log.propagate = True
 
-enable_log()
-project = Project(PROJECT_ID)
-issuetype = IssueType(ISSUETYPE_ID)
-assignee = Assignee(ASSIGNEE_NAME)
-components = [Component(COMPONENT_SOTWARE_ID)]
-summary = TASK_TITLE
-severity = CustomField(CUSTOM_FIELD_10430)
-status = CustomField(CUSTOM_FIELD_10432)
-testcase = CUSTOM_FIELD_10431
+class CreateIssueHandler():
 
-fields = Fields(project, summary, issuetype, severity, status, testcase)
-issueData = IssueData(fields)
+    def createIssue(self, project, issuetype, summary, description):
+        fields = Fields(project, issuetype, summary, description)
+        issueData = IssueData(fields)
 
-post_url = JIRA_URL
-post_headers = {**JIRA_AUTH, **JIRA_CONTENT, **JIRA_ACCEPT}
-post_data = json.dumps(issueData.__dict__, default = obj_to_dict)
+        post_url = JIRA_ISSUE_URL
+        post_headers = {**JIRA_AUTH, **JIRA_CONTENT, **JIRA_ACCEPT}
+        post_data = json.dumps(issueData.__dict__, default = obj_to_dict)
+        print(post_data)
+        response = requests.post(post_url, headers = post_headers, data = post_data)
+        print("Status Code:", response.status_code)
+        response_content = response.json()
+        print("%s:%s" % ("Issue criada com sucesso" if response.status_code == 201 else "Erro na criação da issue", response_content))
+        return Response(
+            Response.STATUS_OK if response.status_code == 201 else Response.STATUS_ERROR, 
+            response_content['key'] if response.status_code == 201 else str(response.status_code),
+            response_content)
 
-response = requests.post(post_url, headers = post_headers, data = post_data)
-response_content = json.loads(response.content)
-print("Status Code:", response.status_code)
-print("%s:%s" % ("Issue criada com sucesso" if response.status_code == 201 else "Erro na criação da issue", response_content))
-response_data = response.json()
-"""
-print(json.dumps(response_data, sort_keys=True,
-                 indent=4, separators=(',', ': ')))
+    def createIssueWithRawData(self, projectKey, issuetypeName, summary, description):
+        project = Project(projectKey)
+        issuetype = IssueType(issuetypeName)
+        return self.createIssue(project, issuetype, summary, description)
 
-print(post_data)
-print(json.dumps(post_data, sort_keys=True,
-                 indent=4,separators=(',', ': ')))
-"""
+    def createIssueLink(self, issueLinkType, inwardIssue, outwardIssue):
+        issueLink = IssueLink(issueLinkType, inwardIssue, outwardIssue)
+        post_url = JIRA_ISSUELINK_URL
+        post_headers = {**JIRA_AUTH, **JIRA_CONTENT, **JIRA_ACCEPT}
+        post_data = json.dumps(issueLink.__dict__, default = obj_to_dict)
+        print(post_data)
+        response = requests.post(post_url, headers = post_headers, data = post_data)
+        print("Status Code:", response.status_code)
+        print("%s" % ("Link criado com sucesso" if response.status_code == 201 else "Erro na criação do link"))
+
+    def createIssueLinkWithRawData(self, typeName, inIssueKey, outIssueKey):
+        issueLinkType = IssueLinkType(typeName)
+        inwardIssue = WardIssue(inIssueKey)
+        outwardIssue = WardIssue(outIssueKey)
+        self.createIssueLink(issueLinkType, inwardIssue, outwardIssue)        
+
+if __name__ == '__main__':
+    #enable_log()
+    createIssueHandler = CreateIssueHandler()
+    project_id = PROJECT_POC_KEY
+    issueetype_id = ISSUE_BUG_NAME
+    summary = CT_TANGENTE_90.description
+    project = Project(project_id)
+    issuetype = IssueType(issueetype_id)
+    description = (
+        "tan(90)=Limiteexcedido' != 'tan(90)=Valor inexistente'\n"
+        "- tan(90)=Limiteexcedido\n"
+        "+ tan(90)=Valor inexistente\n"
+        ": Resultado do teste de Tangente de 90º"
+    )
+    response = createIssueHandler.createIssue(project, issuetype, summary, description)
+    createIssueHandler.createIssueLinkWithRawData(ISSUELINKTYPE_CREATE_BY, CT_TANGENTE_90.key, response.key)
+    sys.exit

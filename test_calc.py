@@ -3,7 +3,12 @@ import unittest, os
 from appium import webdriver
 import logging
 from selenium.webdriver.remote.remote_connection import LOGGER
-LOGGER.setLevel(logging.WARNING)
+from create_issue_jira_hom import CreateIssueHandler
+from create_issue_jira_hom import Response
+from create_issue_jira_hom import IssueLinkType
+from constants_jira import CT_DIVISAO_ZERO, CT_FORMATACAO_DECIMAL, CT_TANGENTE_90, PROJECT_POC_KEY, ISSUE_BUG_NAME, ISSUELINKTYPE_CREATE_BY
+
+LOGGER.setLevel(logging.INFO)
 
 class TestCalc(unittest.TestCase):
 
@@ -16,6 +21,7 @@ class TestCalc(unittest.TestCase):
         self.desired_caps['appActivity'] = 'com.sec.android.app.popupcalculator.Calculator'
         self.screenshot_dir = os.getenv('SCREENSHOT_PATH', '') or os.getcwd() + "/screenshots"
         self.driver = webdriver.Remote('http://localhost:4723/wd/hub', self.desired_caps)
+        self.createIssueHandler = CreateIssueHandler()
         #self.imprimirTodosElements()
 
     def imprimirTodosElements(self):
@@ -50,7 +56,7 @@ class TestCalc(unittest.TestCase):
         resultadoVisor = resultadoVisor.replace("\n", "").replace(" ","")
 
         return resultadoVisor
- 
+    """
     def testDigitosCorretos(self):
         for i in range(9, -1, -1):
             numero_id = 'com.sec.android.app.popupcalculator:id/bt_0' + str(i)
@@ -61,24 +67,6 @@ class TestCalc(unittest.TestCase):
         resultadoVisor = visor.__getattribute__('text')
         resultadoVisor = resultadoVisor.replace(",", "").replace(".","")
         self.assertEqual(resultadoVisor, "9876543210", "Resultado do teste de Visualização dos Digitos")
-
-    #Simula um erro    
-    def testFormatacaoDecimal(self):
-        for i in range(4, 0, -1):
-            numero_id = 'com.sec.android.app.popupcalculator:id/bt_0' + str(i)
-            print(numero_id)
-            numero = self.driver.find_element_by_id(numero_id)
-            numero.click()
-        separadorDecimal = self.driver.find_element_by_id('com.sec.android.app.popupcalculator:id/bt_dot')
-        numero0= self.driver.find_element_by_id('com.sec.android.app.popupcalculator:id/bt_00')
-        numero5 = self.driver.find_element_by_id('com.sec.android.app.popupcalculator:id/bt_05')
-        separadorDecimal.click()
-        numero0.click()
-        numero5.click()
-        visor = self.driver.find_element_by_id('com.sec.android.app.popupcalculator:id/txtCalc')
-        resultadoVisor = visor.__getattribute__('text')
-        self.assertEqual(resultadoVisor, "4.321,05", "Resultado do teste Formatacao Decimal")       
-
  
     def testAdicao(self):
         resultadoVisor = self.realizarOperacao([2], [4], "add")
@@ -95,11 +83,6 @@ class TestCalc(unittest.TestCase):
     def testDivisao(self):
         resultadoVisor = self.realizarOperacao([4,0], [2], "div")
         self.assertEqual(resultadoVisor, "40÷2=20", "Resultado do teste de Divisao")
-
-    #Simula um caso de erro: mensagem da divisao por zero diferente da emitida pela calculadora
-    def testDivisaoZero(self):
-        resultadoVisor = self.realizarOperacao([4], [0], "div")
-        self.assertEqual(resultadoVisor, "4÷0=Divisão por zero", "Resultado do teste de Divisao por Zero")
    
     def testPorcentagem(self):
         resultadoVisor = self.realizarOperacao([4,0,0], [2,0], "persentage")
@@ -121,15 +104,61 @@ class TestCalc(unittest.TestCase):
     def testSeno(self):
         resultadoVisor = self.realizarOperacao([9,0], [], "sin", True)
         self.assertEqual(resultadoVisor, "sin(90)=1", "Resultado do teste de Seno")  
-        
+    """ 
     def testTangente(self):
         resultadoVisor = self.realizarOperacao([4,5], [], "tan", True)
-        self.assertEqual(resultadoVisor, "tan(45)=1", "Resultado do teste de Tangente") 
+        self.assertEqual(resultadoVisor, "tan(45)=1", "Resultado do teste de Tangente")
+        #self.createIssueHandler.createIssue("POC", "Rodada de Teste", "Resultado do teste de Tangente", "")
+
+    #Simula um erro: formatacao decimal não está em portugues
+    def testFormatacaoDecimal(self):
+        for i in range(4, 0, -1):
+            numero_id = 'com.sec.android.app.popupcalculator:id/bt_0' + str(i)
+            print(numero_id)
+            numero = self.driver.find_element_by_id(numero_id)
+            numero.click()
+        separadorDecimal = self.driver.find_element_by_id('com.sec.android.app.popupcalculator:id/bt_dot')
+        numero0= self.driver.find_element_by_id('com.sec.android.app.popupcalculator:id/bt_00')
+        numero5 = self.driver.find_element_by_id('com.sec.android.app.popupcalculator:id/bt_05')
+        separadorDecimal.click()
+        numero0.click()
+        numero5.click()
+        visor = self.driver.find_element_by_id('com.sec.android.app.popupcalculator:id/txtCalc')
+        resultadoVisor = visor.__getattribute__('text')
+
+        try:
+            self.assertEqual(resultadoVisor, "4.321,05", CT_FORMATACAO_DECIMAL.description)
+        except AssertionError as exception:
+            response = self.createIssueHandler.createIssueWithRawData(PROJECT_POC_KEY, ISSUE_BUG_NAME, CT_FORMATACAO_DECIMAL.description, str(exception))
+            if (response.status == Response.STATUS_OK):
+                self.createIssueHandler.createIssueLinkWithRawData(ISSUELINKTYPE_CREATE_BY, CT_FORMATACAO_DECIMAL.key, response.key)
+            raise 
+
+    #Simula um caso de erro: mensagem da divisao por zero diferente da emitida pela calculadora
+    def testDivisaoZero(self):
+        resultadoVisor = self.realizarOperacao([4], [0], "div")
+
+        try:
+            self.assertEqual(resultadoVisor, "4÷0=Divisão por zero", CT_DIVISAO_ZERO.description)
+        except AssertionError as exception:
+            response = self.createIssueHandler.createIssueWithRawData(PROJECT_POC_KEY, ISSUE_BUG_NAME, CT_DIVISAO_ZERO.description, str(exception))
+            if (response.status == Response.STATUS_OK):
+                self.createIssueHandler.createIssueLinkWithRawData(ISSUELINKTYPE_CREATE_BY, CT_DIVISAO_ZERO.key, response.key)
+            raise
+
 
     #Simula um caso de erro: mensagem de calculo de tangente impossivel diferente da calculadora.
     def testTangenteImpossivel(self):
         resultadoVisor = self.realizarOperacao([9,0], [], "tan", True)
-        self.assertEqual(resultadoVisor, "tan(90)=Valor inexistente", "Resultado do teste de Tangente de 90º") 
+
+        try:
+            self.assertEqual(resultadoVisor, "tan(90)=Valor inexistente", CT_TANGENTE_90.description) 
+        except AssertionError as exception:
+            response = self.createIssueHandler.createIssueWithRawData(PROJECT_POC_KEY, ISSUE_BUG_NAME, CT_TANGENTE_90.description, str(exception))
+            if (response.status == Response.STATUS_OK):
+                self.createIssueHandler.createIssueLinkWithRawData(ISSUELINKTYPE_CREATE_BY, CT_TANGENTE_90.key, response.key)
+            raise
+
 
     def tearDown(self):
         self.driver.quit()
