@@ -96,7 +96,7 @@ class TestCalc(unittest.TestCase):
         resultadoVisor = self.realizarOperacao([4,0], [2], "div")
         self.assertEqual(resultadoVisor, "40÷2=20", "Resultado do teste de Divisao")
 
-    #Simula um caso de erro: mensagem mais clara porque da operacao invalida
+    #Simula um caso de erro: mensagem da divisao por zero diferente da emitida pela calculadora
     def testDivisaoZero(self):
         resultadoVisor = self.realizarOperacao([4], [0], "div")
         self.assertEqual(resultadoVisor, "4÷0=Divisão por zero", "Resultado do teste de Divisao por Zero")
@@ -126,7 +126,7 @@ class TestCalc(unittest.TestCase):
         resultadoVisor = self.realizarOperacao([4,5], [], "tan", True)
         self.assertEqual(resultadoVisor, "tan(45)=1", "Resultado do teste de Tangente") 
 
-    #Simula um caso de erro: tangente de angulo 90.
+    #Simula um caso de erro: mensagem de calculo de tangente impossivel diferente da calculadora.
     def testTangenteImpossivel(self):
         resultadoVisor = self.realizarOperacao([9,0], [], "tan", True)
         self.assertEqual(resultadoVisor, "tan(90)=Valor inexistente", "Resultado do teste de Tangente de 90º") 
@@ -140,5 +140,4 @@ if __name__ == '__main__':
         print("Tipo do REsultado:", type(result))
     except Exception as ex:
         print('________________')
-        print(str(ex)
-
+        print(str(ex))
