@@ -1142,3 +1142,28 @@ JavaScript error: https://meuvivo.vivo.com.br/meuvivo/appmanager/portal/vivo?_nf
 [GPU 13028,
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1536154787465	geckodriver	INFO	geckodriver 0.21.0 (c7d3022be6420de1ca4076d932aa32b299f3ea10 2018-06-14)
+1536154787483	geckodriver	INFO	Listening on 127.0.0.1:59891
+1536154790466	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PAULOS~1\\AppData\\Local\\Temp\\rust_mozprofile.SjNol53MpYJB"
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+1536154797882	Marionette	INFO	Listening on port 59903
+1536154798163	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 2: TypeError: $(...) is not a function
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 3609: TypeError: YT.Player is not a constructor
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 1: TypeError: $(...).waitForExist is not a function
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
