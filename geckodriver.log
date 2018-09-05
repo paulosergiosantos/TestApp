@@ -1,0 +1,1144 @@
+1536086103732	geckodriver	INFO	geckodriver 0.21.0 (c7d3022be6420de1ca4076d932aa32b299f3ea10 2018-06-14)
+1536086103767	geckodriver	INFO	Listening on 127.0.0.1:51783
+1536086106695	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PAULOS~1\\AppData\\Local\\Temp\\rust_mozprofile.KhSpF8WDoyOk"
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+1536086114285	Marionette	INFO	Listening on port 51791
+1536086114366	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 2: TypeError: $(...) is not a function
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 1: TypeError: $(...).waitForExist is not a function
+JavaScript error: https://login.vivo.com.br/mobile/appmanager/env/publico/dtagent_ICA23Sqrx_7000100101011.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://login.vivo.com.br/saml2/idp/sso/post, line 20: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://meuvivo.vivo.com.br/meuvivo/ShowPropertyServlet?nodeId=/UCMRepository/MV_MINIFIED_JS, line 18: unreachable code after return statement
+[Parent 17100, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript warning: https://meuvivo.vivo.com.br/meuvivo/ShowPropertyServlet?nodeId=/UCMRepository/MV_MINIFIED_JS, line 18: unreachable code after return statement
+JavaScript error: https://lojaonline.vivo.com.br/vivostorefront/?logout=true, line 135: InvalidAccessError: A parameter or an operation is not supported by the underlying object
+JavaScript error: https://autentica.vivo.com.br/VivoPages/pages/Logout.html, line 11: ReferenceError: $ is not defined
+JavaScript error: https://planos.vivo.com.br/vivostorefront/?logout=true, line 156: InvalidAccessError: A parameter or an operation is not supported by the underlying object
+JavaScript warning: https://planos.vivo.com.br/vivostorefront/_ui/desktop/common/jsVivo/b2c_main.js?20180824164404, line 1930: unreachable code after return statement
+JavaScript warning: https://planos.vivo.com.br/vivostorefront/_ui/desktop/common/jsVivo/b2c_main.js?20180824164404, line 1933: unreachable code after return statement
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 2: TypeError: $(...) is not a function
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGJavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 2: TypeError: $(...) is not a function
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 1: TypeError: $(...).waitForExist is not a function
+[Parent 2136, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line [Parent 17100, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19360, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19360, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 17100, Gecko_IOThread] WARNING: pipe error: 109: file z:/[Parent 2136, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript warning: https://meuvivo.vivo.com.br/meuvivo/ShowPropertyServlet?nodeId=/UCMRepository/MV_MINIFIED_JS, line 18: unreachable code after return statement
+JavaScript warning: https://meuvivo.vivo.com.br/meuvivo/ShowPropertyServlet?nodeId=/UCMRepository/MV_MINIFIED_JS, line 18: unreachable code after return statement
+console.error: "Got an addition of an actor we didn't know about: server1.conn0.child1/domnode472"
+console.error: "Got an addition of an actor we didn't know about: server1.conn0.child1/domnode482"
+console.error: "Got an addition of an actor we didn't know about: server1.conn0.child1/domnode583"
+JavaScript warning: https://meuvivo.vivo.com.br/meuvivo/ShowPropertyServlet?nodeId=/UCMRepository/MV_MINIFIED_JS, line 18: unreachable code after return statement
+[Parent 2136, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: https://autentica.vivo.com.br/VivoPages/pages/Logout.html, line 11: ReferenceError: $ is not defined
+JavaScript error: https://planos.vivo.com.br/vivostorefront/?logout=true, line 156: InvalidAccessError: A parameter or an operation is not supported by the underlying object
+JavaScript error: https://lojaonline.vivo.com.br/vivostorefront/?logout=true, line 135: InvalidAccessError: A parameter or an operation is not supported by the underlying object
+JavaScript warning: https://planos.vivo.com.br/vivostorefront/_ui/desktop/common/jsVivo/b2c_main.js?20180824164404, line 1930: unreachable code after return statement
+JavaScript warning: https://planos.vivo.com.br/vivostorefront/_ui/desktop/common/jsVivo/b2c_main.js?20180824164404, line 1933: unreachable code after return statement
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1689: TypeError: can't access dead object
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1689: TypeError: can't access dead object
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1689: TypeError: can't access dead object
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1689: TypeError: can't access dead object
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 2: TypeError: $(...) is not a function
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1689: TypeError: can't access dead object
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1689: TypeError: can't access dead object
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1689: TypeError: can't access dead object
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1689: TypeError: can't access dead object
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js :: _docShellToWindow :: line 781"  data: no]
+Stack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:781:9
+_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:805:38
+_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:805:12
+_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:809:19
+DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:1664:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 781, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js :: _docShellToWindow :: line 781\"  data: no]\nStack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:781:9\n_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:805:38\n_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:805:12\n_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:809:19\nDebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:1664:7\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 781, column: 0"
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1667"  data: no]
+Stack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:1667:9
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1667, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1667\"  data: no]\nStack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:1667:9\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 1667, column: 0"
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1689: TypeError: can't access dead object
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1689: TypeError: can't access dead object
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1689: TypeError: can't access dead object
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js :: _docShellToWindow :: line 781"  data: no]
+Stack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:781:9
+_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:805:38
+_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:805:12
+_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:809:19
+DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:1664:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 781, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js :: _docShellToWindow :: line 781\"  data: no]\nStack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:781:9\n_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:805:38\n_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:805:12\n_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:809:19\nDebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:1664:7\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 781, column: 0"
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1667"  data: no]
+Stack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:1667:9
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1667, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1667\"  data: no]\nStack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:1667:9\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 1667, column: 0"
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1689: TypeError: can't access dead object
+[Parent 2136, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16664, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16664[Parent 2136, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19236, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19236, [Child 20196, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child[GPU ource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:781:9\n_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:805:38\n_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:805:12\n_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:809:19\nDebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:1664:7\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 781, column: 0"
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1667"  data: no]
+Stack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:1667:9
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1667, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1667\"  data: no]\nStack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:1667:9\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 1667, column: 0"
+[Parent 19976, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 307
+JavaScript error: https://www.vivo.com.br/porta[Parent 19976, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/slweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SErc/chrome/commGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+on/ipc_channel_win.cc, line 307
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1689: TypeError: can't access dead object
+[Child 15120, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child[Parent 19976, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5860, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5860, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 19976, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11924, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child[GPU 3aulosergio\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 2: TypeError: $(...) is not a function
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 1: TypeError: $(...).waitForExist is not a function
+JavaScript error: https://login.vivo.com.br/mobile/appmanager/env/publico/dtagent_ICA23Sqrx_7000100101011.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://login.vivo.com.br/saml2/idp/sso/post, line 20: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://meuvivo.vivo.com.br/meuvivo/ShowPropertyServlet?nodeId=/UCMRepository/MV_MINIFIED_JS, line 18: unreachable code after return statement
+JavaScript warning: https://meuvivo.vivo.com.br/meuvivo/ShowPropertyServlet?nodeId=/UCMRepository/MV_MINIFIED_JS, line 18: unreachable code after return statement
+[Child 8652, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 865[Child 15516, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15516, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 13888, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20468, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child [GPU 9nvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 3609: TypeError: YT.Player is not a constructor
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 2: TypeError: $(...) is not a function
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 1: TypeError: $(...).waitForExist is not a function
+JavaScript error: https://login.vivo.com.br/mobile/appmanager/env/publico/dtagent_ICA23Sqrx_7000100101011.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://login.vivo.com.br/saml2/idp/sso/post, line 20: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://meuvivo.vivo.com.br/meuvivo/ShowPropertyServlet?nodeId=/UCMRepository/MV_MINIFIED_JS, line 18: unreachable code after return statement
+JavaScript warning: https://meuvivo.vivo.com.br/meuvivo/ShowPropertyServlet?nodeId=/UCMRepository/MV_MINIFIED_JS, line 18: unreachable code after return statement
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 5604, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9784, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 978console.error: "Got a removal of an actor we didn't know about: server1.conn0.child1/domnode280"
+console.error: "Got an addition of an actor we didn't know about: server1.conn0.child1/domnode460"
+console.error: "Got a removal of an actor we didn't know about: server1.conn0.child1/domnode460"
+console.error: "Got an addition of an actor we didn't know about: server1.conn0.child1/domnode480"
+JavaScript warning: https://meuvivo.vivo.com.br/meuvivo/ShowPropertyServlet?nodeId=/UCMRepository/MV_MINIFIED_JS, line 18: unreachable code after return statement
+JavaScript error: https://autentica.vivo.com.br/VivoPages/pages/Logout.html, line 11: ReferenceError: $ is not defined
+JavaScript error: https://lojaonline.vivo.com.br/vivostorefront/?logout=true, line 135: InvalidAccessError: A parameter or an operation is not supported by the underlying object
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1689: TypeError: can't access dead object
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 2: TypeError: $(...) is not a function
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1689: TypeError: can't access dead object
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1689: TypeError: can't access dead object
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1689: TypeError: can't access dead object
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1689: TypeError: can't access dead object
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1689: TypeError: can't access dead object
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1689: TypeError: can't access dead object
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1689: TypeError: can't access dead object
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1689: TypeError: can't access dead object
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1689: TypeError: can't access dead object
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1689: TypeError: can't access dead object
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js :: _docShellToWindow :: line 781"  data: no]
+Stack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:781:9
+_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:805:38
+_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:805:12
+_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:809:19
+DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:1664:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 781, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js :: _docShellToWindow :: line 781\"  data: no]\nStack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:781:9\n_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:805:38\n_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:805:12\n_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:809:19\nDebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:1664:7\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 781, column: 0"
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1667"  data: no]
+Stack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:1667:9
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1667, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1667\"  data: no]\nStack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:1667:9\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 1667, column: 0"
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1689: TypeError: can't access dead object
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js :: _docShellToWindow :: line 781"  data: no]
+Stack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:781:9
+_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:805:38
+_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:805:12
+_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:809:19
+DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:1664:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 781, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js :: _docShellToWindow :: line 781\"  data: no]\nStack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:781:9\n_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:805:38\n_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:805:12\n_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:809:19\nDebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:1664:7\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 781, column: 0"
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1667"  data: no]
+Stack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:1667:9
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1667, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1667\"  data: no]\nStack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:1667:9\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 1667, column: 0"
+[Parent 5604, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20880, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[ChildIPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 5604, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21388, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Chil[[GPU 1211536087719816	geckodriver	INFO	geckodriver 0.21.0 (c7d3022be6420de1ca4076d932aa32b299f3ea10 2018-06-14)
+1536087719832	geckodriver	INFO	Listening on 127.0.0.1:53424
+1536087722831	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PAULOS~1\\AppData\\Local\\Temp\\rust_mozprofile.gJsC5gitn2pU"
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+1536087725368	Marionette	INFO	Listening on port 53433
+1536087725563	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 2: TypeError: $(...) is not a function
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 1: TypeError: $(...).waitForExist is not a function
+JavaScript error: https://login.vivo.com.br/mobile/appmanager/env/publico/dtagent_ICA23Sqrx_7000100101011.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://login.vivo.com.br/saml2/idp/sso/post, line 20: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://meuvivo.vivo.com.br/meuvivo/ShowPropertyServlet?nodeId=/UCMRepository/MV_MINIFIED_JS, line 18: unreachable code after return statement
+[Parent 20488, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 20488, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript warning: https://meuvivo.vivo.com.br/meuvivo/ShowPropertyServlet?nodeId=/UCMRepository/MV_MINIFIED_JS, line 18: unreachable code after return statement
+[Parent 20488, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 307
+[Parent 20488, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 307
+JavaScript error: https://autentica.vivo.com.br/VivoPages/pages/Logout.html, line 11: ReferenceError: $ is not defined
+JavaScript error: https://planos.vivo.com.br/vivostorefront/?logout=true, line 156: InvalidAccessError: A parameter or an operation is not supported by the underlying object
+JavaScript error: https://lojaonline.vivo.com.br/vivostorefront/?logout=true, line 135: InvalidAccessError: A parameter or an operation is not supported by the underlying object
+JavaScript warning: https://planos.vivo.com.br/vivostorefront/_ui/desktop/common/jsVivo/b2c_main.js?20180824164404, line 1930: unreachable code after return statement
+JavaScript warning: https://planos.vivo.com.br/vivostorefront/_ui/desktop/common/jsVivo/b2c_main.js?20180824164404, line 1933: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: [object Object]
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 2: TypeError: $(...) is not a function
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+[Parent 20488, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13188, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child[Child 17268, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17268, C[Parent 20488, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20548, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20[GPU1536087908857	geckodriver	INFO	geckodriver 0.21.0 (c7d3022be6420de1ca4076d932aa32b299f3ea10 2018-06-14)
+1536087908881	geckodriver	INFO	Listening on 127.0.0.1:53730
+1536087911824	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PAULOS~1\\AppData\\Local\\Temp\\rust_mozprofile.6ZU6Ae2bkilU"
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+1536087914242	Marionette	INFO	Listening on port 53739
+1536087914714	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web, line 2: TypeError: $(...) is not a function
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://login.vivo.com.br/mobile/appmanager/env/publico/dtagent_ICA23Sqrx_7000100101011.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://login.vivo.com.br/saml2/idp/sso/post, line 20: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://meuvivo.vivo.com.br/meuvivo/ShowPropertyServlet?nodeId=/UCMRepository/MV_MINIFIED_JS, line 18: unreachable code after return statement
+[Parent 8280, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript warning: https://meuvivo.vivo.com.br/meuvivo/ShowPropertyServlet?nodeId=/UCMRepository/MV_MINIFIED_JS, line 18: unreachable code after return statement
+console.error: "Got an addition of an actor we didn't know about: server1.conn0.child1/domnode166"
+console.error: "Got a removal of an actor we didn't know about: server1.conn0.child1/domnode166"
+console.error: "Got an addition of an actor we didn't know about: server1.conn0.child1/domnode234"
+console.error: "Got a removal of an actor we didn't know about: server1.conn0.child1/domnode234"
+console.error: "Got a removal of an actor we didn't know about: server1.conn0.child1/domnode275"
+console.error: "Got an addition of an actor we didn't know about: server1.conn0.child1/domnode290"
+JavaScript warning: https://meuvivo.vivo.com.br/meuvivo/ShowPropertyServlet?nodeId=/UCMRepository/MV_MINIFIED_JS, line 18: unreachable code after return statement
+JavaScript error: https://autentica.vivo.com.br/VivoPages/pages/Logout.html, line 11: ReferenceError: $ is not defined
+JavaScript error: https://lojaonline.vivo.com.br/vivostorefront/?logout=true, line 135: InvalidAccessError: A parameter or an operation is not supported by the underlying object
+JavaScript error: https://planos.vivo.com.br/vivostorefront/?logout=true, line 156: InvalidAccessError: A parameter or an operation is not supported by the underlying object
+JavaScript warning: https://planos.vivo.com.br/vivostorefront/_ui/desktop/common/jsVivo/b2c_main.js?20180824164404, line 1930: unreachable code after return statement
+JavaScript warning: https://planos.vivo.com.br/vivostorefront/_ui/desktop/common/jsVivo/b2c_main.js?20180824164404, line 1933: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-814106463, line 71: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-814106463, line 71: unreachable code after return statement
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1689: TypeError: can't access dead object
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1689: TypeError: can't access dead object
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 2: TypeError: $(...) is not a function
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1689: TypeError: can't access dead object
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1689: TypeError: can't access dead object
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1689: TypeError: can't access dead object
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1689: TypeError: can't access dead object
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1689: TypeError: can't access dead object
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1689: TypeError: can't access dead object
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1689: TypeError: can't access dead object
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1689: TypeError: can't access dead object
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js :: _docShellToWindow :: line 781"  data: no]
+Stack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:781:9
+_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:805:38
+_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:805:12
+_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:809:19
+DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:1664:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 781, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js :: _docShellToWindow :: line 781\"  data: no]\nStack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:781:9\n_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:805:38\n_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:805:12\n_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:809:19\nDebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:1664:7\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 781, column: 0"
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1667"  data: no]
+Stack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:1667:9
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1667, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1667\"  data: no]\nStack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:1667:9\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 1667, column: 0"
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+[Parent 8280, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1689: TypeError: can't access dead object
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1689: TypeError: can't access dead object
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js :: _docShellToWindow :: line 781"  data: no]
+Stack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:781:9
+_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:805:38
+_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:805:12
+_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:809:19
+DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:1664:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 781, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js :: _docShellToWindow :: line 781\"  data: no]\nStack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:781:9\n_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:805:38\n_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:805:12\n_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:809:19\nDebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:1664:7\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 781, column: 0"
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1667"  data: no]
+Stack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:1667:9
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1667, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1667\"  data: no]\nStack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:1667:9\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 1667, column: 0"
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1689: TypeError: can't access dead object
+[Child 8180, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[C[Parent 8280, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20984, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19656, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child[GPU 13ared/base-loader.js -> resource://devtools/server/actors/tab.js :: _docShellToWindow :: line 781"  data: no]
+Stack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:781:9
+_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:805:38
+_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:805:12
+_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:809:19
+DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:1664:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 781, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js :: _docShellToWindow :: line 781\"  data: no]\nStack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:781:9\n_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:805:38\n_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:805:12\n_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:809:19\nDebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:1664:7\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 781, column: 0"
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1667"  data: no]
+Stack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:1667:9
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1667, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1667\"  data: no]\nStack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:1667:9\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 1667, column: 0"
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1689: TypeError: can't access dead object
+[Child 2820, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2820IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 17616, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16396, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child[GPU 2061536088241870	geckodriver	INFO	geckodriver 0.21.0 (c7d3022be6420de1ca4076d932aa32b299f3ea10 2018-06-14)
+1536088241908	geckodriver	INFO	Listening on 127.0.0.1:54222
+1536088244828	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PAULOS~1\\AppData\\Local\\Temp\\rust_mozprofile.Y5EbL6YJNJjj"
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+1536088247174	Marionette	INFO	Listening on port 54230
+1536088247577	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 2: TypeError: $(...) is not a function
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 1: TypeError: $(...).waitForExist is not a function
+JavaScript error: https://login.vivo.com.br/mobile/appmanager/env/publico/dtagent_ICA23Sqrx_7000100101011.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://login.vivo.com.br/saml2/idp/sso/post, line 20: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://meuvivo.vivo.com.br/meuvivo/ShowPropertyServlet?nodeId=/UCMRepository/MV_MINIFIED_JS, line 18: unreachable code after return statement
+[Parent 3292, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 3292, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript warning: https://meuvivo.vivo.com.br/meuvivo/ShowPropertyServlet?nodeId=/UCMRepository/MV_MINIFIED_JS, line 18: unreachable code after return statement
+JavaScript error: https://autentica.vivo.com.br/VivoPages/pages/Logout.html, line 11: ReferenceError: $ is not defined
+JavaScript error: https://lojaonline.vivo.com.br/vivostorefront/?logout=true, line 135: InvalidAccessError: A parameter or an operation is not supported by the underlying object
+JavaScript error: https://planos.vivo.com.br/vivostorefront/?logout=true, line 156: InvalidAccessError: A parameter or an operation is not supported by the underlying object
+JavaScript warning: https://planos.vivo.com.br/vivostorefront/_ui/desktop/common/jsVivo/b2c_main.js?20180824164404, line 1930: unreachable code after return statement
+JavaScript warning: https://planos.vivo.com.br/vivostorefront/_ui/desktop/common/jsVivo/b2c_main.js?20180824164404, line 1933: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-814106463, line 71: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-814106463, line 71: unreachable code after return statement
+JavaScript error: https://connect.facebook.net/en_US/fbevents.js, line 25: NS_ERROR_FAILURE: 
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 2: TypeError: $(...) is not a function
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+[Child 21400, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2140JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2D0095,name=PContent::Msg_StartVisitedQuery) Channel closing: too late to send/recv, messages will be lost
+
+[Child 2728, Chrome_ChildThread] WARNING: pipe error:JavaScript warning: https://meuvivo.vivo.com.br/meuvivo/ShowPropertyServlet?nodeId=/UCMRepository/MV_MINIFIED_JS, line 18: unreachable code after return statement
+[Parent 19372, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 307
+[Parent 19372, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 307
+JavaScript error: https://autentica.vivo.com.br/VivoPages/pages/Logout.html, line 11: ReferenceError: $ is not defined
+JavaScript error: https://planos.vivo.com.br/vivostorefront/?logout=true, line 156: InvalidAccessError: A parameter or an operation is not supported by the underlying object
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 2: TypeError: $(...) is not a function
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+[Child 10348, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child JavaScript error: https://www.youtube.com/yts/jsbin/www-embed-player-vflwl8yBl/www-embed-player.js, line 422: NS_ERROR_NOT_INITIALIZED: 
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 191
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+16, Chrome_Chi
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ldThread] WARNING: pipe error: 109: file z:/build/build/src/ip
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+c/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+[Child 19116, Chrom[Parent 19372, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17188, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17188, Chrome_ChildThread] WARNING: pipe error: 10[GP
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+io\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from Unable to read VR Path Registry from CC:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+1536088710265	Marionette	INFO	Listening on port 54922
+1536088711016	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 2: TypeError: $(...) is not a function
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 1: TypeError: $(...).waitForExist is not a function
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://login.vivo.com.br/mobile/appmanager/env/publico/dtagent_ICA23Sqrx_7000100101011.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://login.vivo.com.br/saml2/idp/sso/post, line 20: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://meuvivo.vivo.com.br/meuvivo/ShowPropertyServlet?nodeId=/UCMRepository/MV_MINIFIED_JS, line 18: unreachable code after return statement
+JavaScript warning: https://meuvivo.vivo.com.br/meuvivo/ShowPropertyServlet?nodeId=/UCMRepository/MV_MINIFIED_JS, line 18: unreachable code after return statement
+JavaScript warning: https://meuvivo.vivo.com.br/meuvivo/ShowPropertyServlet?nodeId=/UCMRepository/MV_MINIFIED_JS, line 18: unreachable code after return statement
+JavaScript error: https://autentica.vivo.com.br/VivoPages/pages/Logout.html, line 11: ReferenceError: $ is not defined
+JavaScript error: https://lojaonline.vivo.com.br/vivostorefront/?logout=true, line 135: InvalidAccessError: A parameter or an operation is not supported by the underlying object
+JavaScript error: https://planos.vivo.com.br/vivostorefront/?logout=true, line 156: InvalidAccessError: A parameter or an operation is not supported by the underlying object
+JavaScript warning: https://planos.vivo.com.br/vivostorefront/_ui/desktop/common/jsVivo/b2c_main.js?20180824164404, line 1930: unreachable code after return statement
+JavaScript warning: https://planos.vivo.com.br/vivostorefront/_ui/desktop/common/jsVivo/b2c_main.js?20180824164404, line 1933: unreachable code after return statement
+[Parent 18428, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtoJavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web, line 2: TypeError: $(...) is not a function
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://login.vivo.com.br/mobile/appmanager/env/publico/dtagent_ICA23Sqrx_7000100101011.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://login.vivo.com.br/saml2/idp/sso/post, line 20: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://meuvivo.vivo.com.br/meuvivo/ShowPropertyServlet?nodeId=/UCMRepository/MV_MINIFIED_JS, line 18: unreachable code after return statement
+JavaScript warning: https://meuvivo.vivo.com.br/meuvivo/ShowPropertyServlet?nodeId=/UCMRepository/MV_MINIFIED_JS, line 18: unreachable code after return statement
+JavaScript error: https://meuvivo.vivo.com.br/meuvivo/appmanager/portal/vivo?_nfpb=true&_pageLabel=vcMVMSairCtrlPage&_nfls=false, line 2000: ReferenceError: doLogout is not defined
+JavaScript error: https://autentica.vivo.com.br/VivoPages/pages/Logout.html, line 11: ReferenceError: $ is not defined
+JavaScript error: https://lojaonline.vivo.com.br/vivostorefront/?logout=true, line 135: InvalidAccessError: A parameter or an operation is not supported by the underlying object
+JavaScript error: https://planos.vivo.com.br/vivostorefront/?logout=true, line 156: InvalidAccessError: A parameter or an operation is not supported by the underlying object
+JavaScript warning: https://planos.vivo.com.br/vivostorefront/_ui/desktop/common/jsVivo/b2c_main.js?20180824164404, line 1930: unreachable code after return statement
+JavaScript warning: https://planos.vivo.com.br/vivostorefront/_ui/desktop/common/jsVivo/b2c_main.js?20180824164404, line 1933: unreachable code after return statement
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 2: TypeError: $(...) is not a function
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+[Child 21048, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child[[Parent 12668, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12436, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1243[G
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+etElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1689: TypeError: can't access dead object
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1689: TypeError: can't access dead object
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1689: TypeError: can't access dead object
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js :: _docShellToWindow :: line 781"  data: no]
+Stack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:781:9
+_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:805:38
+_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:805:12
+_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:809:19
+DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:1664:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 781, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js :: _docShellToWindow :: line 781\"  data: no]\nStack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:781:9\n_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:805:38\n_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:805:12\n_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:809:19\nDebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:1664:7\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 781, column: 0"
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1667"  data: no]
+Stack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:1667:9
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1667, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1667\"  data: no]\nStack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:1667:9\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 1667, column: 0"
+[Child 20412, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20412, Chr[Parent 18428, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14252, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child[GPU 212
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1536088947866	geckodriver	INFO	geckodriver 0.21.0 (c7d3022be6420de1ca4076d932aa32b299f3ea10 2018-06-14)
+1536088947887	geckodriver	INFO	Listening on 127.0.0.1:55712
+1536088950901	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PAULOS~1\\AppData\\Local\\Temp\\rust_mozprofile.spfRQUn6yOKG"
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from Unable to read VR Path Registry from CC:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+1536088954352	Marionette	INFO	Listening on port 55720
+1536088954912	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 2: TypeError: $(...) is not a function
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://login.vivo.com.br/mobile/appmanager/env/publico/dtagent_ICA23Sqrx_7000100101011.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://login.vivo.com.br/saml2/idp/sso/post, line 20: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://meuvivo.vivo.com.br/meuvivo/ShowPropertyServlet?nodeId=/UCMRepository/MV_MINIFIED_JS, line 18: unreachable code after return statement
+JavaScript warning: https://meuvivo.vivo.com.br/meuvivo/ShowPropertyServlet?nodeId=/UCMRepository/MV_MINIFIED_JS, line 18: unreachable code after return statement
+JavaScript error: https://autentica.vivo.com.br/VivoPages/pages/Logout.html, line 11: ReferenceError: $ is not defined
+JavaScript error: https://planos.vivo.com.br/vivostorefront/?logout=true, line 156: InvalidAccessError: A parameter or an operation is not supported by the underlying object
+JavaScript error: https://lojaonline.vivo.com.br/vivostorefront/?logout=true, line 135: InvalidAccessError: A parameter or an operation is not supported by the underlying object
+JavaScript warning: https://planos.vivo.com.br/vivostorefront/_ui/desktop/common/jsVivo/b2c_main.js?20180824164404, line 1930: unreachable code after return statement
+JavaScript warning: https://planos.vivo.com.br/vivostorefront/_ui/desktop/common/jsVivo/b2c_main.js?20180824164404, line 1933: unreachable code after return statement
+JavaScript warning: https://legado.vivo.com.br/Portal%20VIVO/_ArquivosEstaticos/area-logada/js/app/auxilio-lista-gvt.js, line 8: unreachable code after return statement
+JavaScript warning: https://legado.vivo.com.br/Portal%20VIVO/_ArquivosEstaticos/area-logada/js/app/auxilio-lista-gvt.js, line 8: unreachable code after return statement
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 2: TypeError: $(...) is not a function
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+[Child 19068, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Chil[Parent 19832, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6364, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6364[Child 20748, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Chil*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1536089013059	geckodriver	INFO	geckodriver 0.21.0 (c7d3022be6420de1ca4076d932aa32b299f3ea10 2018-06-14)
+1536089013094	geckodriver	INFO	Listening on 127.0.0.1:55979
+1536089016093	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PAULOS~1\\AppData\\Local\\Temp\\rust_mozprofile.p7ip9vK2osqa"
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+1536089018760	Marionette	INFO	Listening on port 55987
+1536089019190	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 2: TypeError: $(...) is not a function
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://login.vivo.com.br/mobile/appmanager/env/publico/dtagent_ICA23Sqrx_7000100101011.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://login.vivo.com.br/saml2/idp/sso/post, line 20: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://meuvivo.vivo.com.br/meuvivo/ShowPropertyServlet?nodeId=/UCMRepository/MV_MINIFIED_JS, line 18: unreachable code after return statement
+JavaScript warning: https://meuvivo.vivo.com.br/meuvivo/ShowPropertyServlet?nodeId=/UCMRepository/MV_MINIFIED_JS, line 18: unreachable code after return statement
+[Child 20364, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 
+###!!! [Child][MessageChannel] Error: (msgtype=0x49000F,name=PHttpChannel::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+[Child 21124, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2D00B0,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2D00B0,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 21124, Chrome_ChildThread] WARNING: 
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2D00B0,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x49000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2D00B0,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2D00B0,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2D00B0,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2D00B0,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 19412, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6776, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 18481536089184027	geckodriver	INFO	geckodriver 0.21.0 (c7d3022be6420de1ca4076d932aa32b299f3ea10 2018-06-14)
+1536089184045	geckodriver	INFO	Listening on 127.0.0.1:56161
+1536089187051	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PAULOS~1\\AppData\\Local\\Temp\\rust_mozprofile.ojJMVI98jVoL"
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+1536089189501	Marionette	INFO	Listening on port 56169
+1536089189957	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 2: TypeError: $(...) is not a function
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 3609: TypeError: YT.Player is not a constructor
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 1: TypeError: $(...).waitForExist is not a function
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://login.vivo.com.br/mobile/appmanager/env/publico/dtagent_ICA23Sqrx_7000100101011.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://login.vivo.com.br/saml2/idp/sso/post, line 20: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 20696, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript warning: https://meuvivo.vivo.com.br/meuvivo/ShowPropertyServlet?nodeId=/UCMRepository/MV_MINIFIED_JS, line 18: unreachable code after return statement
+JavaScript warning: https://meuvivo.vivo.com.br/meuvivo/ShowPropertyServlet?nodeId=/UCMRepository/MV_MINIFIED_JS, line 18: unreachable code after return statement
+JavaScript error: https://meuvivo.vivo.com.br/meuvivo/appmanager/portal/vivo?_nfpb=true&_pageLabel=vcMVMSairCtrlPage&_nfls=false, line 2000: ReferenceError: doLogout is not defined
+[Parent 20696, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21240, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child [Child 14180, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14180, Chro[Parent 20696, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6656, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Chil*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 7391536089271139	geckodriver	INFO	geckodriver 0.21.0 (c7d3022be6420de1ca4076d932aa32b299f3ea10 2018-06-14)
+1536089271157	geckodriver	INFO	Listening on 127.0.0.1:56321
+1536089274113	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PAULOS~1\\AppData\\Local\\Temp\\rust_mozprofile.ltn8Kn6G4sbH"
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from Unable to read VR Path RegisC:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+try from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+1536089276700	Marionette	INFO	Listening on port 56329
+1536089276834	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 2: TypeError: $(...) is not a function
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://login.vivo.com.br/mobile/appmanager/env/publico/dtagent_ICA23Sqrx_7000100101011.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://login.vivo.com.br/saml2/idp/sso/post, line 20: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 12736, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript warning: https://meuvivo.vivo.com.br/meuvivo/ShowPropertyServlet?nodeId=/UCMRepository/MV_MINIFIED_JS, line 18: unreachable code after return statement
+JavaScript warning: https://meuvivo.vivo.com.br/meuvivo/ShowPropertyServlet?nodeId=/UCMRepository/MV_MINIFIED_JS, line 18: unreachable code after return statement
+JavaScript error: https://meuvivo.vivo.com.br/meuvivo/ShowPropertyServlet?nodeId=/UCMRepository/MV_MINIFIED_JS, line 20: TypeError: $.browser is undefined
+JavaScript error: https://meuvivo.vivo.com.br/meuvivo/appmanager/portal/vivo?_nfpb=true&_pageLabel=vcMVMSairCtrlPage&_nfls=false, line 2000: ReferenceError: doLogout is not defined
+[Child 4492, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4492, Chrome_ChildThrea[Parent 12736, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20816, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20816, Ch[Parent 12736, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20016, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 1
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1536089345546	geckodriver	INFO	geckodriver 0.21.0 (c7d3022be6420de1ca4076d932aa32b299f3ea10 2018-06-14)
+1536089345564	geckodriver	INFO	Listening on 127.0.0.1:56492
+1536089348489	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PAULOS~1\\AppData\\Local\\Temp\\rust_mozprofile.CFeKnPUDKe94"
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+1536089350839	Marionette	INFO	Listening on port 56500
+1536089351528	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 2: TypeError: $(...) is not a function
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 1: TypeError: $(...).waitForExist is not a function
+JavaScript error: https://login.vivo.com.br/mobile/appmanager/env/publico/dtagent_ICA23Sqrx_7000100101011.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://login.vivo.com.br/saml2/idp/sso/post, line 20: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://meuvivo.vivo.com.br/meuvivo/ShowPropertyServlet?nodeId=/UCMRepository/MV_MINIFIED_JS, line 18: unreachable code after return statement
+JavaScript warning: https://meuvivo.vivo.com.br/meuvivo/ShowPropertyServlet?nodeId=/UCMRepository/MV_MINIFIED_JS, line 18: unreachable code after return statement
+[Child 8652, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child [Parent 17960, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8744, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 14131536089406979	geckodriver	INFO	geckodriver 0.21.0 (c7d3022be6420de1ca4076d932aa32b299f3ea10 2018-06-14)
+1536089407004	geckodriver	INFO	Listening on 127.0.0.1:56647
+1536089410070	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PAULOS~1\\AppData\\Local\\Temp\\rust_mozprofile.7p5Ktu6U7IWz"
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\paulosergio\AppData\Local\openvr\openvrpaths.vrpath
+1536089417758	Marionette	INFO	Listening on port 56655
+1536089418086	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 2: TypeError: $(...) is not a function
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 3609: TypeError: YT.Player is not a constructor
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 7: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.vivo.com.br/portalweb/appmanager/env/web#, line 1: TypeError: $(...).waitForExist is not a function
+JavaScript error: https://login.vivo.com.br/mobile/appmanager/env/publico/dtagent_ICA23Sqrx_7000100101011.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://login.vivo.com.br/saml2/idp/sso/post, line 20: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 20368, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript warning: https://meuvivo.vivo.com.br/meuvivo/ShowPropertyServlet?nodeId=/UCMRepository/MV_MINIFIED_JS, line 18: unreachable code after return statement
+JavaScript warning: https://meuvivo.vivo.com.br/meuvivo/ShowPropertyServlet?nodeId=/UCMRepository/MV_MINIFIED_JS, line 18: unreachable code after return statement
+JavaScript error: https://meuvivo.vivo.com.br/meuvivo/appmanager/portal/vivo?_nfpb=true&_pageLabel=vcMVMSairCtrlPage&_nfls=false, line 2000: ReferenceError: doLogout is not defined
+[Child 12196, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child[Chil[Parent 20368, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19484, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 194*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 13028,
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
