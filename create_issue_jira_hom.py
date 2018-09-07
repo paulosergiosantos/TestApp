@@ -3,11 +3,17 @@ import requests
 import json
 import logging
 import http
-from constants_jira import PROJECT_POC_KEY, ISSUE_BUG_NAME, CT_TANGENTE_90, ISSUELINKTYPE_CREATE_BY
+from constants_jira import PROJECT_POC_KEY, ISSUE_BUG_NAME, ISSUE_TESTEXEC_KEY, CT_TANGENTE_90, ISSUELINKTYPE_CREATE_BY
+from constants_jira import TEST_STATUS_IN_PROGRESS_ID, TESTRUN_STATUS_FAIL, TESTRUN_STATUS_PASS, TESTRUN_STATUS_EXECUTING
 
 JIRA_ISSUE_URL = 'http://basetestejira.inatel.br:8080/rest/api/latest/issue/'
 JIRA_ISSUELINK_URL = 'http://basetestejira.inatel.br:8080/rest/api/latest/issueLink/'
-JIRA_AUTH = {'Authorization': 'Basic 000'}
+JIRA_ISSUE_TRANSITION_URL = 'http://basetestejira.inatel.br:8080/rest/api/latest/issue/{}/transitions'
+JIRA_ISSUELINK_DEFECT_URL = 'http://basetestejira.inatel.br:8080/rest/raven/1.0/api/testrun/{}/defect'
+JIRA_ISSUE_CHANGE_STATUS_URL = 'http://basetestejira.inatel.br:8080/rest/raven/1.0/api/testrun/{}/status?status={}'
+JIRA_GET_TESTRUN_ID_URL = 'http://basetestejira.inatel.br:8080/rest/raven/1.0/api/testrun?testExecIssueKey={}&testIssueKey={}'
+
+JIRA_AUTH = {'Authorization': 'Basic cGF1bG9zZXJnaW86MGx1YXBSMDFudWo='}
 JIRA_CONTENT = {'Content-Type': 'application/json'}
 JIRA_ACCEPT = {'Accept': 'application/json'}
 
@@ -71,6 +77,16 @@ class IssueLink:
         self.inwardIssue = inwardIssue
         self.outwardIssue = outwardIssue
 
+class Transition():
+    id: None
+    def __init__(self, id):
+        self.id = id
+
+class IssueTransition():
+    transition: None
+    def __init__(self, transition):
+        self.transition = transition
+
 class Response:
     STATUS_OK = "OK"
     STATUS_ERROR = "ERROR"
@@ -96,6 +112,17 @@ def enable_log(enable=False):
         requests_log.propagate = True
 
 class CreateIssueHandler():
+
+    def changeIssueTransition(self, issueKey, transitionId):
+        transition = Transition(transitionId)
+        issueTransition = IssueTransition(transition)
+        post_url = JIRA_ISSUE_TRANSITION_URL.format(issueKey)
+        post_headers = {**JIRA_AUTH, **JIRA_CONTENT, **JIRA_ACCEPT}
+        post_data = json.dumps(issueTransition.__dict__, default = obj_to_dict)
+        print(post_data)
+        response = requests.post(post_url, headers = post_headers, data = post_data)
+        print("Status Code:", response.status_code)
+        print("%s:%s(%s)" % ("Sucesso na alteracao do status da issue" if response.status_code == 204 else "Erro na alteracao do status da issue", issueKey, transitionId))
 
     def createIssue(self, project, issuetype, summary, description):
         fields = Fields(project, issuetype, summary, description)
@@ -133,7 +160,38 @@ class CreateIssueHandler():
         issueLinkType = IssueLinkType(typeName)
         inwardIssue = WardIssue(inIssueKey)
         outwardIssue = WardIssue(outIssueKey)
-        self.createIssueLink(issueLinkType, inwardIssue, outwardIssue)        
+        self.createIssueLink(issueLinkType, inwardIssue, outwardIssue)    
+
+    def createIssueLinkDefect(self, testRunIssueId, issueBugKey):
+        issueBugKeyArr = [issueBugKey]
+        post_url = JIRA_ISSUELINK_DEFECT_URL.format(testRunIssueId)
+        post_headers = {**JIRA_AUTH, **JIRA_CONTENT, **JIRA_ACCEPT}
+        post_data = json.dumps(issueBugKeyArr)
+        print(post_data)
+        response = requests.post(post_url, headers = post_headers, data = post_data)
+        print("Status Code:", response.status_code)
+        print("%s" % ("Defeito criado com sucesso" if response.status_code == 200 else "Erro na criação do defeito"))   
+
+    def changeIssueTestRunStatus(self, testRunIssueId, status):
+        put_url = JIRA_ISSUE_CHANGE_STATUS_URL.format(testRunIssueId, status)
+        post_headers = {**JIRA_AUTH, **JIRA_CONTENT, **JIRA_ACCEPT}
+        post_data = {}
+        print(post_data)
+        response = requests.put(put_url, headers = post_headers, data = post_data)
+        print("Status Code:", response.status_code)
+        print("%s" % ("Status alterado com sucesso" if response.status_code == 200 else "Erro na alteracao do status"))  
+
+    def getTestRunId(self, testExecIssueKey, testIssueKey):
+        get_url = JIRA_GET_TESTRUN_ID_URL.format(testExecIssueKey, testIssueKey)
+        get_headers = {**JIRA_AUTH, **JIRA_CONTENT, **JIRA_ACCEPT}
+        response = requests.get(get_url, headers = get_headers)
+        print("Status Code:", response.status_code)
+        testRunId = 0
+        if (response.status_code == 200):
+            response_content = response.json()
+            testRunId = response_content['id']
+        print("Id da TestExecutionKey(%s) e TestIssueKey(%s): %s" % (testExecIssueKey, testIssueKey, str(testRunId)))        
+        return testRunId
 
 if __name__ == '__main__':
     #enable_log()
@@ -150,5 +208,13 @@ if __name__ == '__main__':
         ": Resultado do teste de Tangente de 90º"
     )
     response = createIssueHandler.createIssue(project, issuetype, summary, description)
-    createIssueHandler.createIssueLinkWithRawData(ISSUELINKTYPE_CREATE_BY, CT_TANGENTE_90.key, response.key)
+    #createIssueHandler.createIssueLinkWithRawData(ISSUELINKTYPE_CREATE_BY, CT_TANGENTE_90.key, response.key)
+    testRunId = createIssueHandler.getTestRunId(ISSUE_TESTEXEC_KEY, CT_TANGENTE_90.key)
+    createIssueHandler.changeIssueTestRunStatus(testRunId, TESTRUN_STATUS_EXECUTING)
+    createIssueHandler.changeIssueTestRunStatus(testRunId, TESTRUN_STATUS_PASS)
+    createIssueHandler.changeIssueTestRunStatus(testRunId, TESTRUN_STATUS_FAIL)
+    createIssueHandler.changeIssueTransition(CT_TANGENTE_90.key, TEST_STATUS_IN_PROGRESS_ID)
+    createIssueHandler.createIssueLinkDefect(testRunId, response.key)
+    
+    
     sys.exit
