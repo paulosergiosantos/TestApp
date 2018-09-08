@@ -13,7 +13,7 @@ JIRA_ISSUELINK_DEFECT_URL = 'http://basetestejira.inatel.br:8080/rest/raven/1.0/
 JIRA_ISSUE_CHANGE_STATUS_URL = 'http://basetestejira.inatel.br:8080/rest/raven/1.0/api/testrun/{}/status?status={}'
 JIRA_GET_TESTRUN_ID_URL = 'http://basetestejira.inatel.br:8080/rest/raven/1.0/api/testrun?testExecIssueKey={}&testIssueKey={}'
 
-JIRA_AUTH = {'Authorization': 'Basic cGF1bG9zZXJnaW86MGx1YXBSMDFudWo='}
+JIRA_AUTH = {'Authorization': 'Basic '}
 JIRA_CONTENT = {'Content-Type': 'application/json'}
 JIRA_ACCEPT = {'Accept': 'application/json'}
 

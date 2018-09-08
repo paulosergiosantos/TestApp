@@ -5,7 +5,7 @@ import logging
 import http
 
 JIRA_URL = 'http://basetestejira.inatel.br:8080/rest/api/latest/issue/'
-JIRA_AUTH = {'Authorization': 'Basic dXN1YXJpbzpzZW5oYQ=='}
+JIRA_AUTH = {'Authorization': 'Basic '}
 JIRA_CONTENT = {'Content-Type': 'application/json'}
 JIRA_ACCEPT = {'Accept': 'application/json'}
 PROJECT_ID = sys.argv[1]
