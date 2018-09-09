@@ -281,4 +281,4 @@ if __name__ == '__main__':
     jiraIssueHandler.addDefectToTestrun(testRunId, bugIssue.key)
     jiraIssueHandler.createIssueLinkWithRawData(ISSUELINKTYPE_BLOCKS_BY, CT_TANGENTE_90.key, bugIssue.key)
    
-    sys.exit
+    sys.exit(0)

@@ -9,13 +9,15 @@ from appium import webdriver
 from selenium.webdriver.remote.remote_connection import LOGGER
 
 from convert_img_to_base64 import ImgToBase64
+
 from create_issue_jira_prod import JiraIssueHandler
 from create_issue_jira_prod import Response
 from create_issue_jira_prod import IssueLinkType
 
 from constants_jira_prod import PROJECT_POC_KEY, ISSUE_BUG_NAME, ISSUE_TESTEXEC_NAME, ISSUE_TESTEXEC_KEY
 from constants_jira_prod import TEST_STATUS_IN_PROGRESS_ID, TEST_STATUS_RETESTING_ID, TEST_STATUS_DONE_ID
-from constants_jira_prod import TEST_RESOLUTION_TESTED
+from constants_jira_prod import TESTEXEC_STATUS_IN_PROGRESS, TESTEXEC_STATUS_DONE
+from constants_jira_prod import TEST_RESOLUTION_TESTED, TEST_RESOLUTION_PASSED, TEST_RESOLUTION_FAILED
 from constants_jira_prod import TESTRUN_STATUS_TODO, TESTRUN_STATUS_EXECUTING, TESTRUN_STATUS_PASS, TESTRUN_STATUS_FAIL, TESTRUN_STATUS_ABORTED
 from constants_jira_prod import CT_DIGITACAO, CT_FORMATACAO_DECIMAL
 from constants_jira_prod import CT_ADICAO, CT_SUBTRACAO, CT_MULTIPLICACAO, CT_DIVISAO, CT_DIVISAO_ZERO
@@ -75,128 +77,46 @@ class TestCalc(unittest.TestCase):
         resultadoVisor = visor.__getattribute__('text')
         return resultadoVisor
 
-    def clickNumero(self, numArray):
+    def clicarNumero(self, numArray):
         numIdPrefix = "com.sec.android.app.popupcalculator:id/bt_0"
         click = lambda num: self.driver.find_element_by_id(numIdPrefix + str(num)).click()
         [click(i) for i in numArray]
 
-    def clickOperador(self, operador):
+    def clicarOperador(self, operador):
         self.driver.find_element_by_id('com.sec.android.app.popupcalculator:id/bt_' + str(operador)).click()
 
-    def realizarOperacao(self, digitos1, digitos2, operador, primeiroOperador=False):
-        if (primeiroOperador):
-            self.clickOperador(operador)
-        self.clickNumero(digitos1)
-        if (not primeiroOperador):
-            self.clickOperador(operador)
-        self.clickNumero(digitos2)
+    def executarOperacao(self, digitos1, digitos2, operador, operadorPrimeiro=False):
+        if (operadorPrimeiro):
+            self.clicarOperador(operador)
+        self.clicarNumero(digitos1)
+        if (not operadorPrimeiro):
+            self.clicarOperador(operador)
+        self.clicarNumero(digitos2)
         self.driver.find_element_by_id('com.sec.android.app.popupcalculator:id/bt_equal').click()
-        resultadoVisor = self.getResultadoVisor().replace("\n", "").replace(" ","")
 
-        return resultadoVisor
+        return self.getResultadoVisor().replace("\n", "").replace(" ","")
 
-    def testDigitacao(self):
+    def executarDigitacao(self):
+        numeros = [i for i in range(9, -1, -1)]
+        self.clicarNumero(numeros)
+
+        return self.getResultadoVisor().replace(",", "").replace(".","")
+
+    def executarFormatacaoDecimal(self):
+        numeros = [i for i in range(4, 0, -1)]
+        self.clicarNumero(numeros)
+        self.driver.find_element_by_id('com.sec.android.app.popupcalculator:id/bt_dot').click()
+        self.clicarNumero([0,5])
+
+        return self.getResultadoVisor()
+
+    def executarTeste(self, cientifica, resultadoEsperado, metodoTeste, *args):
         try:
             self.iniciarCasoTeste(self.casoDeTeste)
-            self.clickNumero([i for i in range(9, -1, -1)])
-            resultadoVisor = self.getResultadoVisor().replace(",", "").replace(".","")
-            self.assertEqual(resultadoVisor, "9876543210", self.casoDeTeste.description)
-        except AssertionError as exception:
-            self.criarBugJira(self.casoDeTeste, exception)
-            self.testRunStatus = TESTRUN_STATUS_FAIL
-            raise 
-        except Exception as exception:
-            self.testRunStatus = TESTRUN_STATUS_ABORTED
-            raise
-        finally:
-            self.finalizarCasoTeste(self.casoDeTeste, self.testRunStatus)
-
-    #Simula um erro: formatacao decimal não está em portugues
-    def testFormatacaoDecimal(self):
-        try:
-            self.iniciarCasoTeste(self.casoDeTeste)
-            self.clickNumero([i for i in range(4, 0, -1)])
-            self.driver.find_element_by_id('com.sec.android.app.popupcalculator:id/bt_dot').click()
-            self.clickNumero([0,5])
-            resultadoVisor = self.getResultadoVisor()
-            self.assertEqual(resultadoVisor, "4.321,05", self.casoDeTeste.description)
-        except AssertionError as exception:
-            self.driver.save_screenshot(self.screenshot_dir + self._testMethodName + ".png")
-            self.criarBugJira(self.casoDeTeste, exception)
-            self.testRunStatus = TESTRUN_STATUS_FAIL
-            raise 
-        except Exception as exception:
-            self.testRunStatus = TESTRUN_STATUS_ABORTED
-            raise
-        finally:
-            self.finalizarCasoTeste(self.casoDeTeste, self.testRunStatus)
-
-    def testAdicao(self):
-        try:
-            self.iniciarCasoTeste(self.casoDeTeste)
-            resultadoVisor = self.realizarOperacao([2], [4], "add")
-            self.assertEqual(resultadoVisor, "2+4=6", self.casoDeTeste.description)
-        except AssertionError as exception:
-            self.criarBugJira(self.casoDeTeste, exception)
-            self.testRunStatus = TESTRUN_STATUS_FAIL
-            raise 
-        except Exception as exception:
-            self.testRunStatus = TESTRUN_STATUS_ABORTED
-            raise
-        finally:
-            self.finalizarCasoTeste(self.casoDeTeste, self.testRunStatus)
-
-    def testSubtracao(self):
-        try:
-            self.iniciarCasoTeste(self.casoDeTeste)
-            resultadoVisor = self.realizarOperacao([4], [2], "sub")
-            self.assertEqual(resultadoVisor, "4" + u"\u2212" + "2=2", CT_SUBTRACAO.description)
-        except AssertionError as exception:
-            self.criarBugJira(self.casoDeTeste, exception)
-            self.testRunStatus = TESTRUN_STATUS_FAIL
-            raise 
-        except Exception as exception:
-            self.testRunStatus = TESTRUN_STATUS_ABORTED
-            raise
-        finally:
-            self.finalizarCasoTeste(self.casoDeTeste, self.testRunStatus)
-
-    def testMultiplicacao(self):
-        try:
-            self.iniciarCasoTeste(CT_MULTIPLICACAO)
-            resultadoVisor = self.realizarOperacao([4], [2,0], "mul")
-            self.assertEqual(resultadoVisor, "4" + u"\u00D7" + "20=80", CT_MULTIPLICACAO.description)
-        except AssertionError as exception:
-            self.criarBugJira(self.casoDeTeste, exception)
-            self.testRunStatus = TESTRUN_STATUS_FAIL
-            raise 
-        except Exception as exception:
-            self.testRunStatus = TESTRUN_STATUS_ABORTED
-            raise
-        finally:
-            self.finalizarCasoTeste(self.casoDeTeste, self.testRunStatus)
-
-    def testDivisao(self):
-        try:
-            self.iniciarCasoTeste(self.casoDeTeste)
-            resultadoVisor = self.realizarOperacao([4,0], [2], "div")
-            self.assertEqual(resultadoVisor, "40÷2=20", self.casoDeTeste.description)
-        except AssertionError as exception:
-            self.criarBugJira(self.casoDeTeste, exception)
-            self.testRunStatus = TESTRUN_STATUS_FAIL
-            raise 
-        except Exception as exception:
-            self.testRunStatus = TESTRUN_STATUS_ABORTED
-            raise
-        finally:
-            self.finalizarCasoTeste(self.casoDeTeste, self.testRunStatus)        
-
-    #Simula um caso de erro: mensagem da divisao por zero diferente da emitida pela calculadora
-    def testDivisaoZero(self):
-        self.iniciarCasoTeste(self.casoDeTeste)
-        resultadoVisor = self.realizarOperacao([4], [0], "div")
-        try:
-            self.assertEqual(resultadoVisor, "4÷0=Divisão por zero", self.casoDeTeste.description)
+            if (cientifica):
+                self.habilitarCalcCientifica()
+            resultadoVisor = metodoTeste(*args)
+            self.assertEqual(resultadoVisor, resultadoEsperado, self.casoDeTeste.description)
         except AssertionError as exception:
             self.driver.save_screenshot(self.screenshot_dir + self._testMethodName + ".png")
             self.criarBugJira(self.casoDeTeste, exception)
@@ -206,139 +126,74 @@ class TestCalc(unittest.TestCase):
             self.testRunStatus = TESTRUN_STATUS_ABORTED
             raise            
         finally:
-            self.finalizarCasoTeste(self.casoDeTeste, self.testRunStatus)    
+            self.finalizarCasoTeste(self.casoDeTeste, self.testRunStatus)
+
+    def testDigitacao(self):
+        self.executarTeste(False, "9876543210", self.executarDigitacao)
+
+    #Simula um caso de erro: formatacao decimal não está em portugues
+    def testFormatacaoDecimal(self):
+        self.executarTeste(False, "4.321,05", self.executarFormatacaoDecimal)
+
+    def testAdicao(self):
+        self.executarTeste(False, "2+4=6", self.executarOperacao, *[[2], [4], "add"])
+
+    def testSubtracao(self):
+        self.executarTeste(False, "4" + u"\u2212" + "2=2", self.executarOperacao, *[[4], [2], "sub"])
+
+    def testMultiplicacao(self):
+        self.executarTeste(False, "4" + u"\u00D7" + "20=80", self.executarOperacao, *[[4], [2,0], "mul"])
+
+    def testDivisao(self):
+        self.executarTeste(False, "40÷2=20", self.executarOperacao, *[[4,0], [2], "div"])
+
+    #Simula um caso de erro: mensagem da divisao por zero diferente da emitida pela calculadora
+    def testDivisaoZero(self):
+        self.executarTeste(False, "4÷0=Divisão por zero", self.executarOperacao, *[[4], [0], "div"])
 
     def testCoseno(self):
-        try:
-            self.habilitarCalcCientifica()
-            self.iniciarCasoTeste(self.casoDeTeste)
-            resultadoVisor = self.realizarOperacao([9,0], [], "cos", True)
-            self.assertEqual(resultadoVisor, "cos(90)=0", self.casoDeTeste.description)  
-        except AssertionError as exception:
-            self.criarBugJira(self.casoDeTeste, exception)
-            self.testRunStatus = TESTRUN_STATUS_FAIL
-            raise 
-        except Exception as exception:
-            self.testRunStatus = TESTRUN_STATUS_ABORTED
-            raise
-        finally:
-            self.finalizarCasoTeste(self.casoDeTeste, self.testRunStatus) 
+        self.executarTeste(True,"cos(90)=0", self.executarOperacao, *[[9,0], [], "cos",  True])
     
     def testSeno(self):
-        try:
-            self.habilitarCalcCientifica()
-            self.iniciarCasoTeste(self.casoDeTeste)
-            resultadoVisor = self.realizarOperacao([9,0], [], "sin", True)
-            self.assertEqual(resultadoVisor, "sin(90)=1", self.casoDeTeste.description) 
-        except AssertionError as exception:
-            self.criarBugJira(self.casoDeTeste, exception)
-            self.testRunStatus = TESTRUN_STATUS_FAIL
-            raise 
-        except Exception as exception:
-            self.testRunStatus = TESTRUN_STATUS_ABORTED
-            raise
-        finally:
-            self.finalizarCasoTeste(self.casoDeTeste, self.testRunStatus) 
+        self.executarTeste(True, "sin(90)=1", self.executarOperacao, *[[9,0], [], "sin", True])
     
     def testTangente(self):
-        try:
-            self.habilitarCalcCientifica()
-            self.iniciarCasoTeste(self.casoDeTeste)
-            resultadoVisor = self.realizarOperacao([4,5], [], "tan", True)
-            self.assertEqual(resultadoVisor, "tan(45)=1", self.casoDeTeste.description)
-        except AssertionError as exception:
-            self.criarBugJira(self.casoDeTeste, exception)
-            self.testRunStatus = TESTRUN_STATUS_FAIL
-            raise 
-        except Exception as exception:
-            self.testRunStatus = TESTRUN_STATUS_ABORTED
-            raise
-        finally:
-            self.finalizarCasoTeste(self.casoDeTeste, self.testRunStatus) 
+        self.executarTeste(True, "tan(45)=1", self.executarOperacao, *[[4,5], [], "tan", True])
 
     #Simula um caso de erro: mensagem de calculo de tangente impossivel diferente da calculadora.
     def testTangente90(self):
-        try:
-            self.habilitarCalcCientifica()
-            self.iniciarCasoTeste(self.casoDeTeste)
-            resultadoVisor = self.realizarOperacao([9,0], [], "tan", True)
-            self.assertEqual(resultadoVisor, "tan(90)=Valor inexistente", self.casoDeTeste.description) 
-        except AssertionError as exception:
-            self.driver.save_screenshot(self.screenshot_dir + self._testMethodName + ".png")
-            self.criarBugJira(self.casoDeTeste, exception)
-            self.testRunStatus = TESTRUN_STATUS_FAIL
-            raise
-        except Exception as exception:
-            self.testRunStatus = TESTRUN_STATUS_ABORTED
-            raise
-        finally:
-            self.finalizarCasoTeste(self.casoDeTeste, self.testRunStatus)
+        self.executarTeste(True, "tan(90)=Valor inexistente", self.executarOperacao, *[[9,0], [], "tan", True])
 
     def testPorcentagem(self):
-        try:
-            self.habilitarCalcCientifica()
-            self.iniciarCasoTeste(self.casoDeTeste)
-            resultadoVisor = self.realizarOperacao([4,0,0], [2,0], "persentage")
-            self.assertEqual(resultadoVisor, "400%" + u"\u00D7" + "20=80", self.casoDeTeste.description)   
-        except AssertionError as exception:
-            self.criarBugJira(self.casoDeTeste, exception)
-            self.testRunStatus = TESTRUN_STATUS_FAIL
-            raise 
-        except Exception as exception:
-            self.testRunStatus = TESTRUN_STATUS_ABORTED
-            raise
-        finally:
-            self.finalizarCasoTeste(self.casoDeTeste, self.testRunStatus) 
+        self.executarTeste(True, "400%" + u"\u00D7" + "20=80", self.executarOperacao, *[[4,0,0], [2,0], "persentage", False])
 
     def testPotenciacao(self):
-        try:
-            self.habilitarCalcCientifica()
-            self.iniciarCasoTeste(self.casoDeTeste)
-            resultadoVisor = self.realizarOperacao([2], [3], "x_y")
-            self.assertEqual(resultadoVisor, "2^(3)=8", self.casoDeTeste.description)  
-        except AssertionError as exception:
-            self.criarBugJira(self.casoDeTeste, exception)
-            self.testRunStatus = TESTRUN_STATUS_FAIL
-            raise 
-        except Exception as exception:
-            self.testRunStatus = TESTRUN_STATUS_ABORTED
-            raise
-        finally:
-            self.finalizarCasoTeste(self.casoDeTeste, self.testRunStatus) 
+        self.executarTeste(True, "2^(3)=8", self.executarOperacao, *[[2], [3], "x_y",  False])
 
     def testRaizQuadrada(self):
-        try:
-            self.habilitarCalcCientifica()
-            self.iniciarCasoTeste(self.casoDeTeste)
-            resultadoVisor = self.realizarOperacao([9], [], "root", True)
-            self.assertEqual(resultadoVisor, u"\u221A" + "(9)=3", self.casoDeTeste.description)  
-        except AssertionError as exception:
-            self.criarBugJira(self.casoDeTeste, exception)
-            self.testRunStatus = TESTRUN_STATUS_FAIL
-            raise 
-        except Exception as exception:
-            self.testRunStatus = TESTRUN_STATUS_ABORTED
-            raise
-        finally:
-            self.finalizarCasoTeste(self.casoDeTeste, self.testRunStatus) 
+        self.executarTeste(True, u"\u221A" + "(9)=3", self.executarOperacao, *[[9], [], "root", True])
 
     def tearDown(self):
         self.driver.quit()
 
 if __name__ == '__main__':
+    result = unittest.TestResult()
     try:
-        dateTime = datetime.datetime.now().strftime('%d/%m/%Y %H:%M:%S')
         jiraIssueHandler = JiraIssueHandler()
+        dateTime = datetime.datetime.now().strftime('%d/%m/%Y %H:%M:%S')
         testExecIssue = jiraIssueHandler.createIssueWithRawData(PROJECT_POC_KEY, ISSUE_TESTEXEC_NAME, "Rodada de Teste Calculadora - {}".format(dateTime))
         ISSUE_TESTEXEC_KEY = testExecIssue.key
         jiraIssueHandler.addTestToTestExecution(ISSUE_TESTEXEC_KEY, CASO_TESTE_KEYS)
+        jiraIssueHandler.changeIssueTransition(ISSUE_TESTEXEC_KEY, TESTEXEC_STATUS_IN_PROGRESS)
         for key in CASO_TESTE_KEYS:
             jiraIssueHandler.changeIssueTransition(key, TEST_STATUS_RETESTING_ID)
             testRunId = jiraIssueHandler.getTestRunId(ISSUE_TESTEXEC_KEY, key)
             jiraIssueHandler.changeIssueTestRunStatus(testRunId, TESTRUN_STATUS_TODO)
 
-        result = unittest.main()
+        result = unittest.main(exit=False).result
     except Exception as ex:
         print(str(ex))
     finally:
+        resolution = TEST_RESOLUTION_PASSED if (len(result.failures) == 0 and len(result.errors) == 0) else TEST_RESOLUTION_FAILED
+        jiraIssueHandler.changeIssueTransition(ISSUE_TESTEXEC_KEY, TESTEXEC_STATUS_DONE, resolution)
         sys.exit(0)
