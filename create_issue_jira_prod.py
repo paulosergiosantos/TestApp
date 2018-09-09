@@ -248,7 +248,7 @@ class JiraIssueHandler():
         response = requests.post(post_url, headers = self.http_headers, data = post_data)
         print("Status Code:", response.status_code)
         print("{} na adição dos Tests {} para o Test Exec {}".format(codeToStr(response.status_code,200), str(tests), testExecIssueKey))
-
+    
 def getBugDescription():
     description = (
         "tan(90)=Limiteexcedido' != 'tan(90)=Valor inexistente'\n"

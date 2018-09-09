@@ -176,24 +176,36 @@ class TestCalc(unittest.TestCase):
     def tearDown(self):
         self.driver.quit()
 
-if __name__ == '__main__':
-    result = unittest.TestResult()
-    try:
-        jiraIssueHandler = JiraIssueHandler()
-        dateTime = datetime.datetime.now().strftime('%d/%m/%Y %H:%M:%S')
-        testExecIssue = jiraIssueHandler.createIssueWithRawData(PROJECT_POC_KEY, ISSUE_TESTEXEC_NAME, "Rodada de Teste Calculadora - {}".format(dateTime))
-        ISSUE_TESTEXEC_KEY = testExecIssue.key
-        jiraIssueHandler.addTestToTestExecution(ISSUE_TESTEXEC_KEY, CASO_TESTE_KEYS)
-        jiraIssueHandler.changeIssueTransition(ISSUE_TESTEXEC_KEY, TESTEXEC_STATUS_IN_PROGRESS)
-        for key in CASO_TESTE_KEYS:
-            jiraIssueHandler.changeIssueTransition(key, TEST_STATUS_RETESTING_ID)
-            testRunId = jiraIssueHandler.getTestRunId(ISSUE_TESTEXEC_KEY, key)
-            jiraIssueHandler.changeIssueTestRunStatus(testRunId, TESTRUN_STATUS_TODO)
+def criarTestExec(jiraIssueHandler):
+    dateTime = datetime.datetime.now().strftime('%d/%m/%Y %H:%M:%S')
+    testExecIssue = jiraIssueHandler.createIssueWithRawData(PROJECT_POC_KEY, ISSUE_TESTEXEC_NAME, "Rodada de Teste Calculadora - {}".format(dateTime))
+    return testExecIssue.key
 
+def inicializarTestExec(jiraIssueHandler):
+    jiraIssueHandler.addTestToTestExecution(ISSUE_TESTEXEC_KEY, CASO_TESTE_KEYS)
+    jiraIssueHandler.changeIssueTransition(ISSUE_TESTEXEC_KEY, TESTEXEC_STATUS_IN_PROGRESS)
+    for key in CASO_TESTE_KEYS:
+        jiraIssueHandler.changeIssueTransition(key, TEST_STATUS_RETESTING_ID)
+        testRunId = jiraIssueHandler.getTestRunId(ISSUE_TESTEXEC_KEY, key)
+        jiraIssueHandler.changeIssueTestRunStatus(testRunId, TESTRUN_STATUS_TODO)
+
+def finalizarTextExec(jiraIssueHandler, result):
+    resolution = TEST_RESOLUTION_PASSED if (len(result.failures) == 0 and len(result.errors) == 0) else TEST_RESOLUTION_FAILED
+    jiraIssueHandler.changeIssueTransition(ISSUE_TESTEXEC_KEY, TESTEXEC_STATUS_DONE, resolution)
+
+if __name__ == '__main__':
+    inicioTeste = datetime.datetime.now()
+    testResult = unittest.TestResult()
+    jiraIssueHandler = JiraIssueHandler()
+    try:
+        ISSUE_TESTEXEC_KEY = "PV-158" #criarTestExec(jiraIssueHandler)
+        inicializarTestExec(jiraIssueHandler)
         result = unittest.main(exit=False).result
     except Exception as ex:
         print(str(ex))
     finally:
-        resolution = TEST_RESOLUTION_PASSED if (len(result.failures) == 0 and len(result.errors) == 0) else TEST_RESOLUTION_FAILED
-        jiraIssueHandler.changeIssueTransition(ISSUE_TESTEXEC_KEY, TESTEXEC_STATUS_DONE, resolution)
+        finalizarTextExec(jiraIssueHandler, testResult)
+        fimTeste = datetime.datetime.now()
+        duracao = fimTeste - inicioTeste
+        print("Tempo do teste: {} minutos, {} segundos".format(int(duracao.seconds/60), duracao.seconds % 60))
         sys.exit(0)
