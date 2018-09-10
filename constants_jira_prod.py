@@ -80,7 +80,7 @@ JIRA_TESTRUN_CHANGE_STATUS_URL = JIRA_SERVER_URL + "/rest/raven/1.0/api/testrun/
 JIRA_TESTRUN_GET_ID_URL = JIRA_SERVER_URL + "/rest/raven/1.0/api/testrun?testExecIssueKey={}&testIssueKey={}"
 JIRA_TESTEXEC_ADD_TEST_URL = JIRA_SERVER_URL + "/rest/raven/1.0/api/testexec/{}/test"
 
-JIRA_AUTH = {'Authorization': 'Basic cGF1bG9zZXJnaW86MGx1YXBSMDFudWo7Ow=='}
+JIRA_AUTH = {'Authorization': 'Basic dXN1YXJpbzpzZW5oYQ=='}
 JIRA_CONTENT = {'Content-Type': 'application/json'}
 JIRA_ACCEPT = {'Accept': 'application/json'}
 

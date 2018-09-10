@@ -198,9 +198,9 @@ if __name__ == '__main__':
     testResult = unittest.TestResult()
     jiraIssueHandler = JiraIssueHandler()
     try:
-        ISSUE_TESTEXEC_KEY = "PV-158" #criarTestExec(jiraIssueHandler)
+        ISSUE_TESTEXEC_KEY = criarTestExec(jiraIssueHandler)
         inicializarTestExec(jiraIssueHandler)
-        result = unittest.main(exit=False).result
+        testResult = unittest.main(exit=False).result
     except Exception as ex:
         print(str(ex))
     finally:
