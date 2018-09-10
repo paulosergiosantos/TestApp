@@ -26,7 +26,7 @@ class TestSitesVivo(unittest.TestCase):
 
         cpf = self.browser.find_element_by_id('cpfOuEmail')
         cpf.clear()
-        cpf.send_keys('00856485667')
+        cpf.send_keys('00000000000')
         senhaI = self.browser.find_element_by_id('senhaText')
         senhaH = self.browser.find_element_by_id('senhaHeader')
         senhaI.clear()
@@ -39,7 +39,7 @@ class TestSitesVivo(unittest.TestCase):
             var elem = arguments[0];
             var value = arguments[1];
             elem.value = value;
-        ''', senhaH, '694432')
+        ''', senhaH, '000000')
         self.browser.find_element_by_id('btnEntrar').click()
 
         self.saveScreenShot()
